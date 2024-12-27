@@ -8,9 +8,9 @@ use App\Models\QuizModel;
 class Results extends BaseController
 {
     //declare instance variables
-    protected \CodeIgniter\Session\Session $session;
-    public \CodeIgniter\Database\BaseBuilder $builder;
-    public \CodeIgniter\Database\BaseConnection $db;
+    protected $session;
+    public $builder;
+    public $db;
 
     function __construct()
     {

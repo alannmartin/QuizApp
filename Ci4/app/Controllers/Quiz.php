@@ -4,13 +4,14 @@ namespace App\Controllers;
 
 use App\Models\QuizModel;
 use App\Models\ResultModel;
+use http\Env\Response;
 
 class Quiz extends BaseController
 {
     //declare instance variables
-    protected \CodeIgniter\Session\Session $session;
-    public \CodeIgniter\Database\BaseBuilder $builder;
-    public \CodeIgniter\Database\BaseConnection $db;
+    protected $session;
+    public $builder;
+    public $db;
     public int $score;
 
 

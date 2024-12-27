@@ -19,7 +19,7 @@ if (!empty($query)) {
     foreach($query->getResult() as $row)
     { ?>
 
-        <!-- Saves changes to the tbl_quiztable -->
+        <!-- Saves changes to the tbl_quiz table -->
         <form action ="<?=base_url('quiz/update/'.$row->quiz_id); ?>" method="POST" >
 
             <div>
@@ -52,7 +52,7 @@ if (!empty($query)) {
 
             <br><br>
             <div>
-                <button class="w3-button w3-blue w3-round w3-border" type="submit" class="">Update</button>
+                <button class="w3-button w3-blue w3-round w3-border" type="submit" >Update</button>
             </div>
         </form>
 
