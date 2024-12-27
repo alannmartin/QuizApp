@@ -23,9 +23,4 @@ class Home extends BaseController
             //. view('partials/footer');
     }
 
-    //--------------------------------------------------------------------
-
-
-
-
 }
