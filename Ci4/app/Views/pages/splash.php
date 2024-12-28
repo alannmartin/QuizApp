@@ -12,7 +12,7 @@
 <br>
 <div class="w3-container w3-center w3-cell-row">
 
-    <?php echo anchor('/login', 'Teacher Area', 'class= " w3-large w3-mobile w3-round-large w3-hover-khaki w3-button w3-red"');?>
+    <?php echo anchor('/login', 'Teacher Login', 'class= " w3-large w3-mobile w3-round-large w3-hover-khaki w3-button w3-red"');?>
 </div>
 <br>
 <div class="w3-container w3-center w3-cell-row">

@@ -16,13 +16,13 @@
             echo '<h5><u>'.$headline.'</u></h5>';
 
         }
-            if($this->session->get('your_answer1') AND $this->session->get('your_answer2') AND
-                $this->session->get('your_answer3') AND $this->session->get('your_answer4') AND $this->session->get('your_answer5'))
+            if($this->session->has('your_answer1') AND $this->session->has('your_answer2') AND
+                $this->session->has('your_answer3') AND $this->session->has('your_answer4') AND $this->session->has('your_answer5'))
             {
-                   if(isset($status))
+                   if(!empty($status))
                    {
                        echo '<p>';
-                       if($status == 'Correct')
+                       if($status === 'Correct')
                        {
                             echo '<p class="w3-text-green">'.$status.'</p>'; ?>
                             <img src="<?=base_url('assets/images/tick.png');?>"

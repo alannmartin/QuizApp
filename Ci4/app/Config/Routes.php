@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 
 /* Better to use $routes->match when there are both GET and POST requests */
 
+
 $routes->match(['GET','POST'],'/', 'Home::index'); //show the quiz questions
 
 $routes->match(['GET','POST'],'new', 'Quiz::new'); //create a new quiz question
@@ -31,6 +32,8 @@ $routes->match(['GET','POST'],'quiz/results', 'Quiz::results'); //fetches studen
 
 $routes->match(['GET','POST'],'results/delete/(:num)', 'Results::delete/$1');//delete a student result
 $routes->match(['GET','POST'],'results/index', 'Results::index'); //show the results page
+
+
 
 
 service('auth')->routes($routes);

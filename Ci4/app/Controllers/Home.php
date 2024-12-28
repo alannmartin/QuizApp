@@ -18,6 +18,8 @@ class Home extends BaseController
     {
         $data['title'] = 'Online Quiz Project';
 
+        $this->session->destroy();
+
         return view('partials/header', $data)
             . view('pages/splash');
             //. view('partials/footer');

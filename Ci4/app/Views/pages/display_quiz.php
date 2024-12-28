@@ -66,7 +66,7 @@
         <div class="w3-bar w3-mobile">
             <?php
             echo form_open('/');
-            echo form_submit('submit','Back','class= "w3-margin w3-mobile w3-button w3-black w3-text-white w3-round"');
+            echo form_submit('submit','Logout','class= "w3-margin w3-mobile w3-button w3-black w3-text-white w3-round"');
             echo form_close();
     }
     ?>
