@@ -201,70 +201,76 @@ class Quiz extends BaseController
      The following sequence is required for keeping the correct answers in the database,
      always keep them in this order D, B, C, C, A
 */
-    public function results():void
+    public function results(): void
     {
         $model = model(QuizModel::class);
 
         if ($this->request->getPost('quiz_id1') and $this->request->getPost('quiz_id2') and $this->request->getPost('quiz_id3')
-            and $this->request->getPost('quiz_id4') and $this->request->getPost('quiz_id5') !== NULL) {
+            and $this->request->getPost('quiz_id4') and $this->request->getPost('quiz_id5') !== NULL)
+        {
 
             $data['headline'] = 'Question 1';
 
-            if ($this->request->getPost('quiz_id1') == $model->get_optionD(1)) {
+            if ($this->request->getPost('quiz_id1') == $model->get_optionD(1))
+            {
                 $data['your_answer1'] = $this->request->getPost('quiz_id1');
                 $this->session->set('your_answer1', $data['your_answer1']);
                 $data["status"] = 'Correct';
                 $data['score1'] = $this->score + 1; //increment the score by 1
-                //place score1 into session
-            } else {
+                $this->session->set('score1', $data['score1']);  //place score1 into session
+            }
+            else
+            {
                 $data['your_answer1'] = $this->request->getPost('quiz_id1');
                 $this->session->set('your_answer1', $data['your_answer1']);
-                $data["status"] = 'Incorrect';
-                $data['score1'] = $this->score; // no score
-                //place score1 into session
+                $data["status"] = 'Wrong';
+                $data['score1'] = $this->score; //no score
+                $this->session->set('score1', $data['score1']);  //place score1 into session
             }
-            $this->session->set('score1', $data['score1']);
             echo view('partials/header')
                 . view('pages/display_results', $data);
 
 
             $data['headline'] = 'Question 2';
 
-            if ($this->request->getPost('quiz_id2') == $model->get_optionB(2)) {
+            if ($this->request->getPost('quiz_id2') == $model->get_optionB(2))
+            {
                 $data['your_answer2'] = $this->request->getPost('quiz_id2');
                 $this->session->set('your_answer2', $data['your_answer2']);
                 $data["status"] = 'Correct';
                 $data['score2'] = $this->score + 1;                //increment the score by 1
-                //place score2 into session
-            } else {
+                $this->session->set('score2', $data['score2']);    //place score2 into session
+            }
+            else
+            {
                 $data['your_answer2'] = $this->request->getPost('quiz_id2');
                 $this->session->set('your_answer2', $data['your_answer2']);
-                $data["status"] = 'Incorrect';
-                $data['score2'] = $this->score; //no score
-                //place score2 into session
-
+                $data["status"] = 'Wrong';
+                $data['score2'] = $this->score;  //no score
+                $this->session->set('score2', $data['score2']);
             }
-            $this->session->set('score2', $data['score2']);
             echo view('partials/header')
                 . view('pages/display_results', $data);
 
-
             $data['headline'] = 'Question 3';
 
-            if ($this->request->getPost('quiz_id3') == $model->get_optionC(3)) {
+            if ($this->request->getPost('quiz_id3') == $model->get_optionC(3))
+            {
                 $data['your_answer3'] = $this->request->getPost('quiz_id3');
                 $this->session->set('your_answer3', $data['your_answer3']);
                 $data["status"] = 'Correct';
+                $this->session->set('status', $data['status']);
                 $data['score3'] = $this->score + 1;                //increment the score by 1
-                //place score3 into session
-            } else {
+                $this->session->set('score3', $data['score3']);    //place score3 into session
+            }
+            else
+            {
                 $data['your_answer3'] = $this->request->getPost('quiz_id3');
                 $this->session->set('your_answer3', $data['your_answer3']);
-                $data["status"] = 'Incorrect';
-                $data['score3'] = $this->score; // no score
-                //place score3 into session
+                $data["status"] = 'Wrong';
+                $data['score3'] = $this->score;  //no score
+                $this->session->set('score3', $data['score3']);
             }
-            $this->session->set('score3', $data['score3']);
             echo view('partials/header')
                 . view('pages/display_results', $data);
 
@@ -276,54 +282,58 @@ class Quiz extends BaseController
                 $data['your_answer4'] = $this->request->getPost('quiz_id4');
                 $this->session->set('your_answer4', $data['your_answer4']);
                 $data["status"] = 'Correct';
-                $data['score4'] = $this->score + 1;                //increment the score by 1
+                $data['score4'] = $this->score + 1;               //increment score by 1
+                $this->session->set('score4', $data['score4']);   //place score4 into session
             }
             else
             {
                 $data['your_answer4'] = $this->request->getPost('quiz_id4');
                 $this->session->set('your_answer4', $data['your_answer4']);
-                $data["status"] = 'Incorrect';
-                $data['score4'] = $this->score; // no score
+                $data["status"] = 'Wrong';
+                $data['score4'] = $this->score; //no score
+                $this->session->set('score4', $data['score4']);
             }
-            $this->session->set('score4', $data['score4']);
             echo view('partials/header')
                 . view('pages/display_results', $data);
 
+
             $data['headline'] = 'Question 5';
 
-            if ($this->request->getPost('quiz_id5') == $model->get_optionA(5))
-            {
+            if ($this->request->getPost('quiz_id5') == $model->get_optionA(5)) {
                 $data['your_answer5'] = $this->request->getPost('quiz_id5');
                 $this->session->set('your_answer5', $data['your_answer5']);
                 $data["status"] = 'Correct';
                 $data['score5'] = $this->score + 1;                //increment the score by 1
+                $this->session->set('score5', $data['score5']);    //place score5 into session
+                $data['score1'] = $this->session->get('score1');   //get the value of score1 from session
+                $data['score2'] = $this->session->get('score2');   //get the value of score2 from session
+                $data['score3'] = $this->session->get('score3');   //get the value of score3 from session
+                $data['score4'] = $this->session->get('score4');   //get the value of score4 from session
+                $data['score5'] = $this->session->get('score5');   //get the value of score5 from session
+                $data['total_score'] = $data['score1'] + $data['score2'] + $data['score3'] + $data['score4'] + $data['score5']; //add the session values together
+                $this->session->set('total_score', $data['total_score']); // places the total_score into session
 
             }
             else
             {
                 $data['your_answer5'] = $this->request->getPost('quiz_id5');
                 $this->session->set('your_answer5', $data['your_answer5']);
-                $data["status"] = 'Incorrect';
-                $data['score5'] = $this->score; // no score
+                $data["status"] = 'Wrong';
+                $data['score5'] = $this->score;  //no score
+                $this->session->set('score5', $data['score5']);
+                $data['total_score'] = $data['score1'] + $data['score2'] + $data['score3'] + $data['score4'] + $data['score5']; //add the session values together
+                $this->session->set('total_score', $data['total_score']); // places the total_score into session
             }
-            $this->session->set('score5', $data['score5']);
-            $data['score1'] = $this->session->get('score1');
-            $data['score2'] = $this->session->get('score2');
-            $data['score3'] = $this->session->get('score3');
-            $data['score4'] = $this->session->get('score4');
-            $data['score5'] = $this->session->get('score5');
-            $data['total_score'] = $data['score1'] + $data['score2'] + $data['score3'] + $data['score4'] + $data['score5'];
-            $this->session->set('total_score', $data['total_score']);
             echo view('partials/header')
                 . view('pages/display_results', $data);
 
-        }
-        else
-        {
+
+            //echo view('partials/header')
+                //. view('pages/display_results', $data);
+        } else {
             echo $this->radio_button_errors();
         }
     }
-
 
 
     public function submit_results_form(): string //displays a new form to enter quiz details
@@ -371,8 +381,17 @@ class Quiz extends BaseController
             'total_score' => $this->session->get('total_score'),
         ]);
 
-        //Redirect the user to see all of the questions
-        return $this->response->redirect(base_url('display'));
+        //Redirect the user to see all of the results from the quiz
+        return $this->response->redirect(base_url('results/index'));
+        //return redirect()->to($_SERVER['HTTP_REFERER'],'refresh');
+    }
+
+    public function success()
+    {
+        $data['title'] = 'Success';
+        //return $this->response->redirect(base_url('quiz/results'));
+        return view('partials/header')
+            . view('pages/success',$data);
     }
 
     //if any of the radio button answers are not selected...then

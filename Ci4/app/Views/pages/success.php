@@ -1,1 +1,11 @@
-<p>Success</p>
+<h4 class="w3-center">Thank you for taking this quiz</h4>
+
+
+<div class="w3-bar w3-center w3-mobile">
+    <?php
+        echo form_open('quiz/results');
+            echo form_submit('submit','View Results','class= "w3-margin w3-mobile w3-button w3-black w3-text-white w3-round"');
+        echo form_close();
+        ?>
+</div>
+

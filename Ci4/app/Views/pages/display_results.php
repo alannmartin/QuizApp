@@ -16,32 +16,40 @@
             echo '<h5><u>'.$headline.'</u></h5>';
 
         }
-            if($this->session->has('your_answer1') AND $this->session->has('your_answer2') AND
-                $this->session->has('your_answer3') AND $this->session->has('your_answer4') AND $this->session->has('your_answer5'))
-            {
-                   if(!empty($status))
-                   {
-                       echo '<p>';
-                       if($status === 'Correct')
-                       {
+
+                        if(isset($status) AND $status == 'Correct')
+                        {
+                            echo '<p>';
                             echo '<p class="w3-text-green">'.$status.'</p>'; ?>
                             <img src="<?=base_url('assets/images/tick.png');?>"
                                  class="w3-mobile" alt=""style="width:3%">
                            <?php
-                       }
-                       else
-                       {
+                        }
+                        else
+                        {
+                            if(isset($message)) {
+                                echo '<p>'.$message.'</p>';
+                            }
+                        }
+                        if(isset($status) AND $status == 'Wrong')
+                        {
                            echo '<p class="w3-text-red">'.$status.'</p>'; ?>
                            <img src="<?=base_url('assets/images/wrong.png');?>"
                                 class="w3-mobile" alt=""style="width:3%">
                            <?php
-                       }
+                        }
+                        else
+                        {
+                            if(isset($message)) {
+                                echo '<p>'.$message.'</p>';
+                            }
+                        }
                        echo '</p>';
                        echo '<br>';
-                        
-                       if(isset($total_score))
+
+                       if($this->session->has('total_score'))
                        {
-                           echo 'Your total score is '.'<h5>'.$total_score.'/'.'5'.'</h5>';
+                           echo 'Your total score is '.'<h5>'.$this->session->get('total_score').'/'.'5'.'</h5>';
 
                            /* use an anchor link instead of a button  to submit the results to the database */
                            $data = array('class' => 'w3-button w3-mobile w3-tiny w3-round w3-border w3-black','title' => 'Submit Results');
@@ -52,16 +60,14 @@
                            echo '<p class="w3-left">'.anchor(base_url().'/','Close',$data).'</p>'; //easier to use an anchor as a button
 
                        }
-                  }
-                  else
-                  {
-                      if(isset($message)) {
-                          echo '<p>'.$message.'</p>';
-                      }
-                  }
-
-        }
+                       else
+                       {
+                           if(isset($message)) {
+                               echo '<p>'.$message.'</p>';
+                           }
+                       }
         ?>
+
 
     </div>
 </section>
