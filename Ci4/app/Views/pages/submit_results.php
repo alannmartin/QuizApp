@@ -30,12 +30,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                 );
 
                 echo form_label('Quiz Taker', 'quiz_taker').form_input($quiz_taker);
-
-                if($validation->hasError('quiz_taker')) {?>
+                if(isset($_POST['quiz/submit_results']))
+                {
+                    if($validation->hasError('quiz_taker'))
+                    {?>
                     <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                        <?= $validation->getError('quiz_taker'); ?> <!--display single line error -->
+                        <?= $validation->getError('quiz_taker'); ?>
                     </div>
-                <?php }?>
+                <?php }
+                }
+                ?>
             </td>
 
             <tr>
@@ -52,12 +56,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('class'),
                     );
                     echo form_label('Class or Section', 'class').form_input($class);
-
-                    if($validation->hasError('class')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('class'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['quiz/submit_results']))
+                    {
+                        if($validation->hasError('class'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('class'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>
@@ -74,12 +82,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('total_score'),
                     );
                     echo form_label('Total Score', 'total_score').form_input($total_score);
-
-                    if($validation->hasError('total_score')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('total_score'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['quiz/submit_results']))
+                    {
+                        if($validation->hasError('total_score')) {?> <!--not a required field-->}
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('total_score'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>

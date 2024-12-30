@@ -382,7 +382,7 @@ class Quiz extends BaseController
         ]);
 
         //Redirect the user to see all of the results from the quiz
-        return $this->response->redirect(base_url('results/index'));
+        return $this->response->redirect(base_url('success'));
         //return redirect()->to($_SERVER['HTTP_REFERER'],'refresh');
     }
 

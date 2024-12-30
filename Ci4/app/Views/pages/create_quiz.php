@@ -24,9 +24,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
         <?php echo form_open(base_url('create'));?>
         <?= csrf_field() ?>
         <table class="w3-table w3-mobile">
-
-            <?php $validation = \Config\Services::validation(); ?>
-
+            <?php $validation = service('validation');?>
                 <td>
                     <?php
                     $quiz_question = array(
@@ -41,12 +39,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     );
 
                     echo form_label('The Question', 'quiz_question').form_input($quiz_question);
-
-                    if($validation->hasError('quiz_question')) {?>
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('quiz_question'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['create']))
+                    {
+                        if($validation->hasError('quiz_question'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('quiz_question'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             <tr>
                 <td>
@@ -62,12 +64,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('option_a'),
                     );
                     echo form_label('Answer A', 'option_a').form_input($option_a);
-
-                    if($validation->hasError('option_a')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('option_a'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['create']))
+                    {
+                        if($validation->hasError('option_a'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('option_a'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>
@@ -84,12 +90,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('option_b'),
                     );
                     echo form_label('Answer B', 'option_b').form_input($option_b);
-
-                    if($validation->hasError('option_b')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('option_b'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['create']))
+                    {
+                        if($validation->hasError('option_b'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('option_b'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>
@@ -106,13 +116,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('option_c'),
                     );
                     echo form_label('Answer C', 'option_c').form_input($option_c);
-
-                    if($validation->hasError('option_c')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('option_c'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
-
+                    if(isset($_POST['create']))
+                    {
+                        if($validation->hasError('option_c'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('option_c'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>
@@ -129,12 +142,16 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('option_d'),
                     );
                     echo form_label('Answer D', 'option_d').form_input($option_d);
-
-                    if($validation->hasError('option_d')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('option_d'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['create']))
+                    {
+                        if($validation->hasError('option_d'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('option_d'); ?>
+                            </div>
+                        <?php }
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>
@@ -151,24 +168,28 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                         'value' => set_value('correct_answer'),
                     );
                     echo form_label('Option', 'correct_answer').form_input($correct_answer);
-
-                    if($validation->hasError('correct_answer')) {?> <!--not a required field-->
-                        <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
-                            <?= $validation->getError('correct_answer'); ?> <!--display single line error -->
-                        </div>
-                    <?php }?>
+                    if(isset($_POST['create']))
+                    {
+                        if($validation->hasError('correct_answer'))
+                        {?>
+                            <div class='w3-padding w3-mobile w3-text-pale-red w3-pale-red'>
+                                <?= $validation->getError('correct_answer'); ?>
+                            </div>
+                 <?php }
+                    }
+                    ?>
                 </td>
+               <?php echo form_close(); ?>
             </tr>
-
             <tr>
                 <td>
                     <?php
-                    echo form_submit('create','Save Changes','class= "w3-button w3-mobile w3-tiny w3-black w3-text-white w3-round w3-border", title="Save to database"');
+                    echo form_submit('create','Process Results','class= "w3-button w3-mobile w3-tiny w3-black w3-text-white w3-round w3-border", title="Process Results"');
 
                     /* use an anchor link instead of a button */
                     $data = array('class' => 'w3-button w3-mobile w3-tiny w3-round w3-border w3-blue-grey','title' => 'Close');
-                    echo anchor(base_url().'/','Close',$data); //easier to use an anchor as a button
-
+                    echo anchor(base_url().'display','Close',$data); //easier to use an anchor as a button
+                    echo form_close();
                     ?>
                 </td>
             </tr>

@@ -9,13 +9,15 @@ use CodeIgniter\Router\RouteCollection;
 /* Better to use $routes->match when there are both GET and POST requests */
 
 
-$routes->match(['GET','POST'],'/', 'Home::index'); //show the quiz questions
+$routes->match(['GET','POST'],'/', 'Splash::index'); //show the quiz questions
 
 $routes->match(['GET','POST'],'new', 'Quiz::new'); //create a new quiz question
 
 $routes->match(['GET','POST'],'create', 'Quiz::create'); //create a new quiz question
 
 $routes->match(['GET','POST'],'save', 'Quiz::save'); //save the quiz questions
+
+$routes->match(['GET','POST'],'success', 'Quiz::success'); //save the quiz questions
 
 $routes->match(['GET','POST'],'display', 'Quiz::display'); //show the quiz questions
 

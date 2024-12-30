@@ -1,5 +1,5 @@
-<h1 class="w3-container w3-mobile w3-center w3-text-black">Online Quiz Engine</h1>
-<section class="w3-center w3-mobile">
+<h1 class="w3-container w3-mobile w3-center w3-text-black">Teachers Quiz Engine</h1>
+<section class="w3-container w3-center w3-mobile">
 <h5 class="w3-padding w3-mobile w3-round w3-card-4 w3-justify w3-light-gray w3-text-black w3-large w3-padding" style="width:96%;margin-left:auto;margin-right:auto;">
     This web app allows teachers and trainers to login and create an online quiz for their learners.
     The quiz serves as a self-diagnostic tool for learners to see how well they have understood certain concepts
