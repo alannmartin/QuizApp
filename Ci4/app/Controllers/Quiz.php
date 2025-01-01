@@ -398,7 +398,7 @@ class Quiz extends BaseController
     public function radio_button_errors(): string
     {
         $data['title'] = 'Radio Button Errors';
-        $data['message'] = '<h3 class="w3-text-red w3-center">'.'Please answer ALL the questions'.'</h3>';
+        $data['message'] = '<h6 class="w3-container w3-padding w3-text-sand w3-center">'.'Please answer ALL the questions'.'</h6>';
         return view('partials/header')
             . view('pages/radio_button_errors',$data);
     }

@@ -1,11 +1,12 @@
-<section class="w3-container">
-    <br>
-
-    <div id = "wrapper" style="width:43%; margin-left:auto;margin-right:auto;background-color:white;padding-left:2%;padding-right:2%;padding-bottom:1%;
+ <h3 style="text-align:center;text-decoration: underline;color:black;padding-right:5%;">Create New Quiz</h3>
+ <br>
+ <div id = "wrapper" style="width:63%; margin-left:auto;margin-right:auto;background-color:white;padding-left:2%;padding-right:2%;padding-bottom:1%;
 border-left:rgb(158,169,190) 1px solid;border-top:rgb(158,169,190) 1px solid;border-right:rgb(158,169,190) 1px solid;
-border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-container">
+border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-container">    <br>
+    
+ <div class="w3-container w3-mobile">
 
-        <h4 style="text-align:center;text-decoration:underline;color:black;padding-right:5%;">Create Quiz</h4>
+        <h4>Enter a Question with 5 Possible Answers</h4>
         <!--<h5 class="w3-center w3-mobile ">Please enter all fields</h5>-->
 
         <!--sprinkle a little Alpine.js in this div element-->
@@ -14,7 +15,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
             <button x-on:mouseenter="isOpen = true" x-on:mouseleave="isOpen = false" class="w3-button w3-medium w3-pale-green w3-round w3-border-0">
                 Note....
             </button>
-            <p x-show="isOpen" class="w3-text-teal">
+            <p x-show="isOpen" class="w3-container w3-text-black">
                 For best results it is a good practice to make sure that you use the correct sequence of alphabetical letters for the correct answers
                 to each question. For example, the correct answers for the FIVE questions shown below should be entered in the sequence D,B,C,C,A for each question.
                 This is necessary so that the marking gets done correctly!
@@ -23,18 +24,18 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
         <br>
         <?php echo form_open(base_url('create'));?>
         <?= csrf_field() ?>
-        <table class="w3-table w3-mobile">
-            <?php $validation = service('validation');?>
+        <table class="w3-table-all">            
+        <?php $validation = service('validation');?>
                 <td>
                     <?php
                     $quiz_question = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-text-blue-gray',
                         'name' => 'quiz_question',
                         'id'   => 'quiz_question',
                         'placeholder' =>'Your question',
-                        'title'=>'Add Question',
-                        'style'=>'width:100%',
+                        'title'=> 'Add Question',
+                        'style'=> 'width:100%',                         
                         'value' => set_value('quiz_question'),
                     );
 
@@ -55,7 +56,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     <?php
                     $option_a = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-text-blue-gray',
                         'name' => 'option_a',
                         'id' => 'option_a',
                         'placeholder' =>'Your optional answer',
@@ -81,7 +82,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     <?php
                     $option_b = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-text-blue-gray',
                         'name' => 'option_b',
                         'id' => 'option_b',
                         'placeholder' =>'Your optional answer',
@@ -107,7 +108,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     <?php
                     $option_c = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-text-blue-gray',
                         'name' => 'option_c',
                         'id' => 'option_c',
                         'placeholder' =>'Your optional answer',
@@ -133,7 +134,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     <?php
                     $option_d = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-text-blue-gray',
                         'name' => 'option_d',
                         'id' => 'option_d',
                         'placeholder' =>'Your optional answer',
@@ -159,7 +160,7 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     <?php
                     $correct_answer = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-text-blue-gray',
                         'name' => 'correct_answer',
                         'id' => 'correct_answer',
                         'placeholder' =>'Correct Answer: You should enter A,B,C, or D ',
@@ -195,4 +196,3 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
             </tr>
         </table>
     </div>
-</section>

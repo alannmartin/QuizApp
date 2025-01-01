@@ -1,25 +1,22 @@
 <h1 class="w3-padding w3-mobile w3-center "><b>Students Results</b></h1>
 <title><?php //echo $title;?></title>
-
-<table class="w3-table-all w3-mobile w3-card-4 w3-small" style="margin-left:auto;margin-right:auto;width:95%">
-
-</table>
-
+<br>
+<br>
 <?php
 if(!empty($query))
 {  ?>
-<table class="w3-table-all w3-mobile w3-card-4 w3-small w3-hoverable" style="margin-left:auto;margin-right:auto;width:95%">
+<table class="w3-table-all w3-mobile w3-small w3-hoverable"style="margin-left:auto;margin-right:auto;width:93%">
 
-    <th style='' class=''><b><u>Quiz Taker</u></b></th>
-    <th style='' class=''><b><u>Class</u></b></th>
-    <th style='' class=''><b><u>Answer 1</u></b></th>
-    <th style='' class=''><b><u>Answer 2</u></b></th>
-    <th style='' class=''><b><u>Answer 3</u></b></th>
-    <th style='' class=''><b><u>Answer 4</u></b></th>
-    <th style='' class=''><b><u>Answer 5</u></b></th>
-    <th style='' class=''><b><u>Score</u></b></th>
-    <th style='' class=''><b><u>Date</u></b></th>
-    <th style='' class=''><b><u>Trash</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Quiz Taker</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Class</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Ans</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Ans</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Ans</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Ans</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Ans</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Score</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Date & Time</u></b></th>
+    <th style='' class='w3-mobile'><b><u>Trash</u></b></th>
 
 
     <?php

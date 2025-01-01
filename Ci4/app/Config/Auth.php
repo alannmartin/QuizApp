@@ -152,7 +152,7 @@ class Auth extends ShieldAuth
      * --------------------------------------------------------------------
      * Determines whether users can register for the site.
      */
-    public bool $allowRegistration = false; //true
+    public bool $allowRegistration = true;
     /**
      * --------------------------------------------------------------------
      * Record Last Active Date

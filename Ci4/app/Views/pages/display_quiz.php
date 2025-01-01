@@ -1,17 +1,16 @@
-
-    <h1 class="w3-padding w3-mobile w3-center "><b>Quiz Engine</b></h1>
+ <h1 class="w3-padding w3-mobile w3-center "><b>Teachers Quiz Engine</b></h1>
     <title><?php //echo $title;?></title>
-
-    <table class="w3-table-all w3-mobile w3-card-4 w3-small" style="margin-left:auto;margin-right:auto;width:90%">
+    
+    <table class="w3-table w3-striped  w3-mobile w3-small" style="margin-left:auto;margin-right:auto;width:93%">
         <th class="w3-right">
             <?php
-            $data = array('class' => 'w3-button w3-round w3-mobile w3-tiny w3-blue-gray','title' => 'Class Results');
+            $data = array('class' => 'w3-button w3-round  w3-blue-gray','title' => 'Class Results');
             echo anchor(base_url().'results/index', 'Class Results',$data); //easier to use an anchor as a button
           ?>
         </th>
         <th class="w3-right">
             <?php
-            $data = array('class' => 'w3-button w3-round w3-mobile w3-tiny w3-blue-gray','title' => 'Create Question');
+            $data = array('class' => 'w3-button w3-round w3-blue-gray','title' => 'Create Question');
             echo anchor(base_url().'create', 'Create Question',$data); //easier to use an anchor as a button
             ?>
         </th>
@@ -20,14 +19,14 @@
     <?php
     if(!empty($query))
     {  ?>
-    <table class="w3-table-all w3-mobile w3-card-4 w3-small w3-hoverable" style="margin-left:auto;margin-right:auto;width:90%">
+    <table class="w3-table-all w3-mobile w3-tiny w3-hoverable" style="margin-left:auto;margin-right:auto;width:93%">
 
         <th style='' class=''><b><u>Question</u></b></th>
-        <th style='' class=''><b><u>Option A</u></b></th>
-        <th style='' class=''><b><u>Option B</u></b></th>
-        <th style='' class=''><b><u>Option C</u></b></th>
-        <th style='' class=''><b><u>Option D</u></b></th>
-        <th style='' class=''><b><u>Ans</u></b></th>
+        <th style='' class=''><b><u>A</u></b></th>
+        <th style='' class=''><b><u>B</u></b></th>
+        <th style='' class=''><b><u>C</u></b></th>
+        <th style='' class=''><b><u>D</u></b></th>
+        <th style='' class=''><b><u>Correct</u></b></th>
         <th style='' class=''><b><u>Edit</u></b></th>
         <th style='' class=''><b><u>Trash</u></b></th>
 

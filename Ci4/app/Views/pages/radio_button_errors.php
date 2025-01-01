@@ -8,4 +8,27 @@
 
 /* use an anchor link instead of a button  to submit the results to the database */
 $data = array('class' => 'w3-button w3-mobile w3-center w3-large w3-round w3-blue','title' => 'Try Again');
-echo '<p class="w3-center">'.anchor(base_url().'quiz/start','Try Again',$data).'</p>'; //easier to use an anchor as a button
+echo '<p class="w3-container w3-center w3-margin">'.anchor(base_url().'quiz/start','Try Again',$data).'</p>'; ?>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

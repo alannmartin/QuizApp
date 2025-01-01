@@ -73,8 +73,9 @@ border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-containe
                     <?php
                     $total_score = array(
 
-                        'class'=> 'w3-input w3-border w3-text-blue-gray',
+                        'class'=> 'w3-input w3-border w3-light-gray w3-text-blue-gray',
                         'name' => 'total_score',
+                        'readonly' => 'readonly',
                         'id' => 'total_score',
                         'placeholder' => $this->session->get('total_score'),
                         'title'=>'Score',

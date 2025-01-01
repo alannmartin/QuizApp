@@ -1,11 +1,6 @@
-<section class="w3-container">
-    <!--#d9edf7-->
-    <br>
-
-    <div id = "wrapper" style="width:43%; margin-left:auto;margin-right:auto;background-color:white;padding-left:2%;padding-right:2%;padding-bottom:1%;
+<div id = "wrapper" style="width:43%; margin-left:auto;margin-right:auto;background-color:white;padding-left:2%;padding-right:2%;padding-bottom:1%;
 border-left:rgb(158,169,190) 1px solid;border-top:rgb(158,169,190) 1px solid;border-right:rgb(158,169,190) 1px solid;
 border-bottom:rgb(158,169,190) 1px solid;border-radius:10px;" class="w3-container">
-
         <h3 style="text-align:center;text-decoration: underline;color:black;padding-right:5%;">Quiz</h3>
         <h6 class="w3-center">Select the best answer for each question</h6>
 
