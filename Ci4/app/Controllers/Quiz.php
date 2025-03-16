@@ -261,17 +261,8 @@ class Quiz extends BaseController
             'choice4' => $posts['choice4'],
             'answer' => $posts['answer'],
             'user_id' => $this->user_id,
-            'user' => $this->user,
-            //$insert_id = $this->db->insertID(),
-            //use this service before using $this->>session
-            //$this->session = \Config\Services::session(),
-            //$this->session->set('insert_id', $insert_id),
+            'user' => $this->user
         ]);
-
-        /*
-         * // get the current user's id
-                $user_id = auth()->id();
-         */
 
         //Redirect the user to see all of the questions
         return $this->response->redirect(base_url('display'));
@@ -361,9 +352,9 @@ class Quiz extends BaseController
     /* submits the quiz takers results to the tbl_result table in the database */
     public function submit_results(): \CodeIgniter\HTTP\ResponseInterface|string
     {
-        $data['title'] = 'Submit Results';
         $posted_data = $this->request->getPost(['quiz_taker', 'class', 'your_answer1',
             'your_answer2', 'your_answer3', 'your_answer4', 'final']);
+            
         // Checks whether the submitted data passed the validation rules.
         if (!$this->validateData($posted_data, [
 

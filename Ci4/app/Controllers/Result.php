@@ -28,7 +28,6 @@ class Result extends BaseController
 
     public function index(): string
     {
-        $data['title'] = 'Student Results';
         $model = model(ResultModel::class);
         $data['query'] = $model->get_results();
         $data['posts'] = $this->get_data_from_post();
@@ -38,7 +37,6 @@ class Result extends BaseController
 
     public function display(): string
     {
-        $data['title'] = 'Display';
         $model = model(ResultModel::class);
         $data['query'] = $model->get_results();
         return view('pages/result/student_results', $data);
@@ -69,7 +67,6 @@ class Result extends BaseController
             //catch the quiz_id from the url
             $quiz_id = $this->request->getUri()->getSegment(3);
         }
-        $data['heading'] = " ";  //sets a heading for the page
         $model = model(ResultModel::class);
         $data['query'] = $model->get_where($result_id); //query a row matching the quiz_id
         return view('pages/quiz/edit_results', $data);

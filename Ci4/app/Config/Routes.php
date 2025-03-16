@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
-/* Use route names when applicable using ,['as' => 'routes_name']); */
+/* Use a names route when applicable using ,['as' => 'routes_name']); */
 
 /* Better to use $routes->match when there are both GET and POST requests */
     $routes->match(['GET','POST'],'/', 'Splash::index'); //show the quiz questions
