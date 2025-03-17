@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Jan 25, 2025 at 08:53 AM
+-- Generation Time: Mar 17, 2025 at 09:41 AM
 -- Server version: 5.7.39
 -- PHP Version: 8.3.0
 
@@ -43,7 +43,8 @@ INSERT INTO `auth_groups_users` (`id`, `user_id`, `group`, `created_at`) VALUES
 (2, 2, 'user', '2025-01-02 10:33:40'),
 (3, 3, 'user', '2025-01-09 12:09:56'),
 (4, 4, 'user', '2025-01-11 10:43:46'),
-(5, 5, 'user', '2025-01-16 18:58:35');
+(5, 5, 'user', '2025-01-16 18:58:35'),
+(6, 6, 'user', '2025-03-17 09:31:14');
 
 -- --------------------------------------------------------
 
@@ -71,11 +72,12 @@ CREATE TABLE `auth_identities` (
 --
 
 INSERT INTO `auth_identities` (`id`, `user_id`, `type`, `name`, `secret`, `secret2`, `expires`, `extra`, `force_reset`, `last_used_at`, `created_at`, `updated_at`) VALUES
-(1, 1, 'email_password', NULL, 'alannmartin@gmail.com', '$2y$12$S9yaRAxQJPPdiI7h/jm9Qu/l3DneYk0Kf/TFuX6kB6jUmdZmex25C', NULL, NULL, 0, '2025-01-25 08:40:53', '2024-12-10 15:01:35', '2025-01-25 08:40:53'),
-(2, 2, 'email_password', NULL, 'alan@devcoach.co.za', '$2y$12$DPrVNWBHcKSCUSNngPATKO/JBZoNPhQLUlSJKK6SuL6GgyqSaPoHK', NULL, NULL, 0, '2025-01-25 08:41:20', '2025-01-02 10:33:39', '2025-01-25 08:41:20'),
-(3, 3, 'email_password', NULL, 'me@email.com', '$2y$12$cTLiUZiJU50n6yb7EODlO.VFcV05XmW9tGdLBJyTfM7pMJJFdZkZ2', NULL, NULL, 0, '2025-01-16 18:54:06', '2025-01-09 12:09:55', '2025-01-16 18:54:06'),
-(4, 4, 'email_password', NULL, 'susan@email.co.za', '$2y$12$8m1/rUoDQJcVwQc36iFTTeUbO3WiiDWP.VTpgcn5vbVKmRPjwgDLG', NULL, NULL, 0, '2025-01-25 08:41:43', '2025-01-11 10:43:45', '2025-01-25 08:41:43'),
-(5, 5, 'email_password', NULL, 'donk@email.com', '$2y$12$vsLc2wCnCeM70qiI0bwtzu2PX7yJN8ArY.RabatqRBAotMw4qCfje', NULL, NULL, 0, '2025-01-25 08:53:07', '2025-01-16 18:58:34', '2025-01-25 08:53:07');
+(1, 1, 'email_password', NULL, 'alannmartin@gmail.com', '$2y$12$S9yaRAxQJPPdiI7h/jm9Qu/l3DneYk0Kf/TFuX6kB6jUmdZmex25C', NULL, NULL, 0, '2025-03-17 07:21:28', '2024-12-10 15:01:35', '2025-03-17 07:21:28'),
+(2, 2, 'email_password', NULL, 'alan@devcoach.co.za', '$2y$12$S9yaRAxQJPPdiI7h/jm9Qu/l3DneYk0Kf/TFuX6kB6jUmdZmex25C', NULL, NULL, 0, '2025-03-17 07:24:50', '2025-01-02 10:33:39', '2025-03-17 07:24:50'),
+(3, 3, 'email_password', NULL, 'me@email.com', '$2y$12$S9yaRAxQJPPdiI7h/jm9Qu/l3DneYk0Kf/TFuX6kB6jUmdZmex25C', NULL, NULL, 0, '2025-03-16 10:28:57', '2025-01-09 12:09:55', '2025-03-16 10:28:57'),
+(4, 4, 'email_password', NULL, 'susan@email.co.za', '$2y$12$S9yaRAxQJPPdiI7h/jm9Qu/l3DneYk0Kf/TFuX6kB6jUmdZmex25C', NULL, NULL, 0, '2025-03-16 10:27:41', '2025-01-11 10:43:45', '2025-03-16 10:27:41'),
+(5, 5, 'email_password', NULL, 'donk@email.com', '$2y$12$S9yaRAxQJPPdiI7h/jm9Qu/l3DneYk0Kf/TFuX6kB6jUmdZmex25C', NULL, NULL, 0, '2025-03-17 07:24:32', '2025-01-16 18:58:34', '2025-03-17 07:24:32'),
+(6, 6, 'email_password', NULL, 'johndoe@email.com', '$2y$12$Toks3iZvEoM7KlNHjkSUJuH5pu8K8P/N40vepxsh28eC5k8FLrfHq', NULL, NULL, 0, '2025-03-17 09:39:24', '2025-03-17 09:31:13', '2025-03-17 09:39:24');
 
 -- --------------------------------------------------------
 
@@ -373,7 +375,76 @@ INSERT INTO `auth_logins` (`id`, `ip_address`, `user_agent`, `id_type`, `identif
 (271, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', NULL, '2025-01-25 08:50:55', 0),
 (272, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', NULL, '2025-01-25 08:51:12', 0),
 (273, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'Jo@email.com', 5, '2025-01-25 08:51:58', 1),
-(274, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', 5, '2025-01-25 08:53:07', 1);
+(274, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', 5, '2025-01-25 08:53:07', 1),
+(275, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-27 11:16:03', 1),
+(276, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 13:55:06', 1),
+(277, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 13:56:35', 1),
+(278, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 13:57:21', 1),
+(279, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 13:58:41', 1),
+(280, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:00:53', 1),
+(281, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:01:23', 1),
+(282, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:04:41', 1),
+(283, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:06:15', 1),
+(284, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:07:00', 1),
+(285, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:07:44', 1),
+(286, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:09:01', 1),
+(287, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:09:36', 1),
+(288, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:12:26', 1),
+(289, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:14:00', 1),
+(290, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:14:44', 1),
+(291, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:15:35', 1),
+(292, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:16:15', 1),
+(293, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:17:22', 1),
+(294, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:17:58', 1),
+(295, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:19:03', 1),
+(296, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:21:14', 1),
+(297, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:22:58', 1),
+(298, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:23:56', 1),
+(299, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:25:53', 1),
+(300, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 14:59:33', 1),
+(301, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 15:00:08', 1),
+(302, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 15:01:00', 1),
+(303, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 15:01:39', 1),
+(304, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-28 15:14:59', 1),
+(305, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-29 13:01:41', 1),
+(306, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-29 13:05:29', 1),
+(307, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-29 13:11:49', 1),
+(308, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-29 13:14:00', 1),
+(309, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-30 09:41:59', 1),
+(310, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-30 09:49:37', 1),
+(311, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-30 12:18:05', 1),
+(312, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-30 12:19:17', 1),
+(313, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-30 12:21:01', 1),
+(314, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-01-30 12:27:11', 1),
+(315, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-13 10:30:55', 1),
+(316, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', 5, '2025-03-16 09:24:43', 1),
+(317, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', 2, '2025-03-16 09:25:32', 1),
+(318, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', 5, '2025-03-16 09:27:54', 1),
+(319, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', 2, '2025-03-16 09:35:00', 1),
+(320, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'susan@email.co.za', 4, '2025-03-16 09:43:23', 1),
+(321, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 09:51:48', 1),
+(322, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', 2, '2025-03-16 10:26:59', 1),
+(323, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', 2, '2025-03-16 10:27:24', 1),
+(324, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'susan@email.co.za', 4, '2025-03-16 10:27:41', 1),
+(325, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', 5, '2025-03-16 10:28:04', 1),
+(326, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'me@email.com', 3, '2025-03-16 10:28:57', 1),
+(327, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 10:29:46', 1),
+(328, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 10:43:05', 1),
+(329, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 10:47:24', 1),
+(330, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', 2, '2025-03-16 10:52:22', 1),
+(331, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 11:17:42', 1),
+(332, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 11:38:56', 1),
+(333, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-16 12:56:20', 1),
+(334, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'johndoe@email.com', NULL, '2025-03-17 07:20:43', 0),
+(335, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', NULL, '2025-03-17 07:20:53', 0),
+(336, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', NULL, '2025-03-17 07:21:03', 0),
+(337, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', NULL, '2025-03-17 07:21:16', 0),
+(338, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alannmartin@gmail.com', 1, '2025-03-17 07:21:28', 1),
+(339, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', NULL, '2025-03-17 07:21:58', 0),
+(340, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'donk@email.com', 5, '2025-03-17 07:24:32', 1),
+(341, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'alan@devcoach.co.za', 2, '2025-03-17 07:24:50', 1),
+(342, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'johndoe@email.com', 6, '2025-03-17 09:31:34', 1),
+(343, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'email_password', 'johndoe@email.com', 6, '2025-03-17 09:39:24', 1);
 
 -- --------------------------------------------------------
 
@@ -404,14 +475,6 @@ CREATE TABLE `auth_remember_tokens` (
   `updated_at` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `auth_remember_tokens`
---
-
-INSERT INTO `auth_remember_tokens` (`id`, `selector`, `hashedValidator`, `user_id`, `expires`, `created_at`, `updated_at`) VALUES
-(1, '23f6a7c1a9f375ba84d8b536', '275538a5881628aeea1adbc5cdce273a3ea6d6f8e26c45cbef864dd502c3acbb', 2, '2025-02-01 10:35:13', '2025-01-02 10:34:05', '2025-01-02 10:35:13'),
-(2, '546a39545d25691662d01280', '50ebe3bd354c6e4d13df224e82cf705a9f3f22abcf42224ee287bf3c5a5adcd8', 4, '2025-02-22 15:05:02', '2025-01-23 15:05:02', '2025-01-23 15:05:02');
-
 -- --------------------------------------------------------
 
 --
@@ -428,6 +491,24 @@ CREATE TABLE `auth_token_logins` (
   `date` datetime NOT NULL,
   `success` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `hits`
+--
+
+CREATE TABLE `hits` (
+  `id` int(255) NOT NULL,
+  `counter` int(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `hits`
+--
+
+INSERT INTO `hits` (`id`, `counter`) VALUES
+(1, 6472);
 
 -- --------------------------------------------------------
 
@@ -496,7 +577,12 @@ INSERT INTO `quiz_questions` (`quizID`, `user_id`, `user`, `question`, `choice1`
 (17, 5, 'Mr.Donk', 'What mobile phone do I use?', 'Nokia', 'iPhone', 'Samsung', 'Motorolla', 'iPhone'),
 (18, 5, 'Mr.Donk', 'How many laptops do I own?', 'One', 'Two', 'Three', 'None', 'One'),
 (19, 5, 'Mr.Donk', 'What is my favourite operating system?', 'MacOSX', 'Unix', 'Linux', 'Microsoft Windows', 'MacOSX'),
-(20, 5, 'Mr.Donk', 'How many meals do I eat in a day?', 'One', 'Twp', 'It depends', 'Three', 'It depends');
+(20, 5, 'Mr.Donk', 'How many meals do I eat in a day?', 'One', 'Twp', 'It depends', 'Three', 'It depends'),
+(21, 6, 'Mr.Doe', 'What is the capital of Australia?', 'Melbourne', 'Sidney', 'Canberra', 'Auckland', 'Canberra'),
+(22, 6, 'Mr.Doe', 'Which planet is known as the red planet?', 'Earth', 'Mars', 'Saturn', 'Uranus', 'Mars'),
+(23, 6, 'Mr.Doe', 'What is the chemical symbol for water?', 'Qt2', 'HO2', 'H20', 'C33', 'H20'),
+(24, 6, 'Mr.Doe', 'What is largest desert in the world?', 'Kalahari', 'Namib', 'Egypt', 'Antartic', 'Antartic'),
+(25, 6, 'Mr.Doe', 'What is the name of the largest ocean on earth?', 'Indian ocean', 'Pacific ocean', 'Atlantic ocean', 'Red sea', 'Pacific ocean');
 
 -- --------------------------------------------------------
 
@@ -525,15 +611,13 @@ INSERT INTO `quiz_results` (`result_id`, `user`, `quiz_taker`, `class`, `your_an
 (8, 'Miss Wales', 'A Hero', '12Q', '31 days', '100 degrees', 'Amazon', 'Deer', 5, '2024-12-26 00:00:00'),
 (9, 'Miss Wales', 'A Student', '12A', '28 days', '102 degrees', 'Amazon', 'Deer', 3, '2024-12-26 00:00:00'),
 (10, 'Miss Wales', 'URA Doffy', '34R', '30 days', '100 degrees', 'Nile', 'Deer', 2, '2024-12-26 00:00:00'),
-(12, 'Miss Wales', 'Any Nerd', '78t', '31 days', '100 degrees', 'Amazon', 'Deer', 5, '2024-12-26 00:00:00'),
 (18, 'Mr.Martin', 'Joseph Dongle', '23Y', 'Newton', 'Joule', 'Joule/sec', 'm/sec squared', 5, '2025-01-10 19:37:29'),
 (22, 'Mr.Martin', 'Jim Clark', '23E', 'Newton', 'Joule', 'Joule/sec', 'm/sec squared', 4, '2025-01-14 16:49:33'),
 (26, 'Mr.Martin', 'John Smith', '23T', 'Newton', 'Joule', 'Joule/sec', 'm/sec squared', 4, '2025-01-14 19:24:02'),
 (28, 'Mrs.Maze', 'Peter Pan', '23Y', 'Kwazulu-Natal', 'Western Cape', 'Gauteng', 'Kwazulu-Natal', 4, '2025-01-14 19:48:13'),
-(29, 'Mr.Martin', 'James Bond', '45W', 'Newton', 'Joule', 'Nm', 'm/sec squared', 4, '2025-01-14 19:56:34'),
-(31, 'Miss Wales', 'James', '34Y', '31 days', '95 degrees', 'Woolworths', 'Deer', 3, '2025-01-23 17:02:17'),
 (33, 'Mrs.Maze', 'James', '23R', 'Kwazulu-Natal', 'Limpopo', 'Mapumalanga', 'Kwazulu-Natal', 3, '2025-01-23 17:03:27'),
-(34, 'Mr.Donk', 'Alan Martin', '23Y', 'Blue', 'iPhone', 'One', 'MacOSX', 5, '2025-01-25 10:50:30');
+(34, 'Mr.Donk', 'Alan Martin', '23Y', 'Blue', 'iPhone', 'One', 'MacOSX', 5, '2025-01-25 10:50:30'),
+(35, 'Mr.Doe', 'Mary Poppins', '2G', 'Canberra', 'Mars', 'H20', 'Antartic', 5, '2025-03-17 11:39:14');
 
 -- --------------------------------------------------------
 
@@ -579,7 +663,8 @@ INSERT INTO `users` (`id`, `username`, `status`, `status_message`, `active`, `la
 (2, 'Miss Wales', NULL, NULL, 1, NULL, '2025-01-02 10:33:39', '2025-01-02 10:33:40', NULL),
 (3, 'Mr.Match', NULL, NULL, 1, NULL, '2025-01-09 12:09:55', '2025-01-09 12:09:56', NULL),
 (4, 'Mrs.Maze', NULL, NULL, 1, NULL, '2025-01-11 10:43:44', '2025-01-11 10:43:46', NULL),
-(5, 'Mr.Donk', NULL, NULL, 1, NULL, '2025-01-16 18:58:34', '2025-01-16 18:58:35', NULL);
+(5, 'Mr.Donk', NULL, NULL, 1, NULL, '2025-01-16 18:58:34', '2025-01-16 18:58:35', NULL),
+(6, 'Mr.Doe', NULL, NULL, 1, NULL, '2025-03-17 09:31:13', '2025-03-17 09:31:14', NULL);
 
 --
 -- Indexes for dumped tables
@@ -632,6 +717,12 @@ ALTER TABLE `auth_token_logins`
   ADD KEY `user_id` (`user_id`);
 
 --
+-- Indexes for table `hits`
+--
+ALTER TABLE `hits`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `migrations`
 --
 ALTER TABLE `migrations`
@@ -670,19 +761,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `auth_groups_users`
 --
 ALTER TABLE `auth_groups_users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `auth_identities`
 --
 ALTER TABLE `auth_identities`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `auth_logins`
 --
 ALTER TABLE `auth_logins`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=275;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=344;
 
 --
 -- AUTO_INCREMENT for table `auth_permissions_users`
@@ -694,13 +785,19 @@ ALTER TABLE `auth_permissions_users`
 -- AUTO_INCREMENT for table `auth_remember_tokens`
 --
 ALTER TABLE `auth_remember_tokens`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `auth_token_logins`
 --
 ALTER TABLE `auth_token_logins`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `hits`
+--
+ALTER TABLE `hits`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -712,13 +809,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `quiz_questions`
 --
 ALTER TABLE `quiz_questions`
-  MODIFY `quizID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `quizID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `quiz_results`
 --
 ALTER TABLE `quiz_results`
-  MODIFY `result_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `result_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `settings`
@@ -730,7 +827,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Constraints for dumped tables

@@ -74,8 +74,7 @@ class Quiz extends BaseController
         }
     }
 
-
-    public function resultDisplay()
+    public function resultDisplay() //currently only accepts 5 questions
     {
         //initialise Codeigniter Services
         $this->session = Services::session();
@@ -90,10 +89,6 @@ class Quiz extends BaseController
                 'ques3' => $this->request->getPost('ID3'),
                 'ques4' => $this->request->getPost('ID4'),
                 'ques5' => $this->request->getPost('ID5'),
-
-                'ques6' => $this->request->getPost('ID6'),
-                'ques7' => $this->request->getPost('ID7'),
-                'ques8' => $this->request->getPost('ID8'),
             );
 
             //put the posted answers into session
@@ -106,7 +101,7 @@ class Quiz extends BaseController
 
             $model = model(QuizModel::class);
             $data['results'] = $model->getQuestions();
-            return view('pages/quiz/result_display1',$data);
+            return view('pages/quiz/result_display', $data);
 
         }
 
@@ -119,10 +114,6 @@ class Quiz extends BaseController
                 'ques8' => $this->request->getPost('ID8'),
                 'ques9' => $this->request->getPost('ID9'),
                 'ques10' => $this->request->getPost('ID10'),
-
-                'ques11' => $this->request->getPost('ID12'),
-                'ques12' => $this->request->getPost('ID12'),
-                'ques13' => $this->request->getPost('ID13'),
             );
 
             //put the posted answers into session
@@ -134,7 +125,7 @@ class Quiz extends BaseController
 
             $model = model(QuizModel::class);
             $data['results'] = $model->getQuestions();
-            return view('pages/quiz/result_display2',$data);
+            return view('pages/quiz/result_display', $data);
 
         }
 
@@ -147,10 +138,6 @@ class Quiz extends BaseController
                 'ques13' => $this->request->getPost('ID13'),
                 'ques14' => $this->request->getPost('ID14'),
                 'ques15' => $this->request->getPost('ID15'),
-
-                'ques16' => $this->request->getPost('ID16'),
-                'ques17' => $this->request->getPost('ID17'),
-                'ques18' => $this->request->getPost('ID18'),
             );
 
             //put the posted answers into session
@@ -162,7 +149,7 @@ class Quiz extends BaseController
 
             $model = model(QuizModel::class);
             $data['results'] = $model->getQuestions();
-            return view('pages/quiz/result_display3',$data);
+            return view('pages/quiz/result_display', $data);
 
         }
 
@@ -176,9 +163,6 @@ class Quiz extends BaseController
                 'ques19' => $this->request->getPost('ID19'),
                 'ques20' => $this->request->getPost('ID20'),
 
-                'ques21' => $this->request->getPost('ID21'),
-                'ques22' => $this->request->getPost('ID22'),
-                'ques23' => $this->request->getPost('ID23'),
             );
 
             //put the posted answers into session
@@ -190,7 +174,107 @@ class Quiz extends BaseController
 
             $model = model(QuizModel::class);
             $data['results'] = $model->getQuestions();
-            return view('pages/quiz/result_display4',$data);
+            return view('pages/quiz/result_display', $data);
+
+        }
+
+        if ($this->request->getPost('ID21') and $this->request->getPost('ID22') and $this->request->getPost('ID23')
+            and $this->request->getPost('ID24') and $this->request->getPost('ID25') !== NULL)
+        {
+            $data['posted'] = array(
+                'ques21' => $this->request->getPost('ID21'),
+                'ques22' => $this->request->getPost('ID22'),
+                'ques23' => $this->request->getPost('ID23'),
+                'ques24' => $this->request->getPost('ID24'),
+                'ques25' => $this->request->getPost('ID25'),
+
+            );
+
+            //put the posted answers into session
+            $this->session->set('your_answer1', $this->request->getPost('ID21'));
+            $this->session->set('your_answer2', $this->request->getPost('ID22'));
+            $this->session->set('your_answer3', $this->request->getPost('ID23'));
+            $this->session->set('your_answer4', $this->request->getPost('ID24'));
+            $this->session->set('your_answer5', $this->request->getPost('ID25'));
+
+            $model = model(QuizModel::class);
+            $data['results'] = $model->getQuestions();
+            return view('pages/quiz/result_display', $data);
+
+        }
+
+        if ($this->request->getPost('ID26') and $this->request->getPost('ID27') and $this->request->getPost('ID28')
+            and $this->request->getPost('ID29') and $this->request->getPost('ID30') !== NULL)
+        {
+            $data['posted'] = array(
+                'ques26' => $this->request->getPost('ID26'),
+                'ques27' => $this->request->getPost('ID27'),
+                'ques28' => $this->request->getPost('ID28'),
+                'ques29' => $this->request->getPost('ID29'),
+                'ques30' => $this->request->getPost('ID30'),
+
+            );
+
+            //put the posted answers into session
+            $this->session->set('your_answer1', $this->request->getPost('ID26'));
+            $this->session->set('your_answer2', $this->request->getPost('ID27'));
+            $this->session->set('your_answer3', $this->request->getPost('ID28'));
+            $this->session->set('your_answer4', $this->request->getPost('ID29'));
+            $this->session->set('your_answer5', $this->request->getPost('ID30'));
+
+            $model = model(QuizModel::class);
+            $data['results'] = $model->getQuestions();
+            return view('pages\quiz\result_display', $data);
+
+        }
+
+        if ($this->request->getPost('ID31') and $this->request->getPost('ID32') and $this->request->getPost('ID33')
+            and $this->request->getPost('ID34') and $this->request->getPost('ID35') !== NULL)
+        {
+            $data['posted'] = array(
+                'ques31' => $this->request->getPost('ID31'),
+                'ques32' => $this->request->getPost('ID32'),
+                'ques33' => $this->request->getPost('ID33'),
+                'ques34' => $this->request->getPost('ID34'),
+                'ques35' => $this->request->getPost('ID35'),
+
+            );
+
+            //put the posted answers into session
+            $this->session->set('your_answer1', $this->request->getPost('ID31'));
+            $this->session->set('your_answer2', $this->request->getPost('ID32'));
+            $this->session->set('your_answer3', $this->request->getPost('ID33'));
+            $this->session->set('your_answer4', $this->request->getPost('ID34'));
+            $this->session->set('your_answer5', $this->request->getPost('ID35'));
+
+            $model = model(QuizModel::class);
+            $data['results'] = $model->getQuestions();
+            return view('pages/quiz/result_display', $data);
+
+        }
+
+        if ($this->request->getPost('ID36') and $this->request->getPost('ID37') and $this->request->getPost('ID38')
+            and $this->request->getPost('ID39') and $this->request->getPost('ID40') !== NULL)
+        {
+            $data['posted'] = array(
+                'ques36' => $this->request->getPost('ID36'),
+                'ques37' => $this->request->getPost('ID37'),
+                'ques38' => $this->request->getPost('ID38'),
+                'ques39' => $this->request->getPost('ID39'),
+                'ques40' => $this->request->getPost('ID40'),
+
+            );
+
+            //put the posted answers into session
+            $this->session->set('your_answer1', $this->request->getPost('ID36'));
+            $this->session->set('your_answer2', $this->request->getPost('ID37'));
+            $this->session->set('your_answer3', $this->request->getPost('ID38'));
+            $this->session->set('your_answer4', $this->request->getPost('ID39'));
+            $this->session->set('your_answer5', $this->request->getPost('ID40'));
+
+            $model = model(QuizModel::class);
+            $data['results'] = $model->getQuestions();
+            return view('pages/quiz/result_display', $data);
 
         }
         else
@@ -200,6 +284,8 @@ class Quiz extends BaseController
 
 
     } //end function
+
+
 
     public function submit_create_form(): string //displays a new form to enter quiz details
     {

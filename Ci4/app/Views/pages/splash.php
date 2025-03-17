@@ -25,8 +25,8 @@
         <div class="w3-container w3-bar">
             <p>
                 This quiz engine is free for teachers or workplace trainers to create
-                short multiple-choice text based quizzes for their learners. The quiz can help
-                learners to diagnose their knowledge and understanding of certain concepts. You can use it to create FIVE multiple-choice questions. You need to register on the system first, so that you can login before creating your quiz or analysing your learners results.<br><br>
+                five short multiple-choice text based quizzes. Your quiz can help
+                your learners to diagnose their knowledge and understanding of key concepts. You do need to register on the system first, so that you can login before creating your quiz or analysing your learners results.<br><br>
             </p>
         </div>
     </div>

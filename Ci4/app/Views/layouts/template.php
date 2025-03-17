@@ -20,7 +20,7 @@
     <link href="<?= base_url();?>assets/css/style.css" rel="stylesheet">
 
     <!-- Alpine.js CDN link-->
-    <script defer src="https://onpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
 
     <style>
         body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}

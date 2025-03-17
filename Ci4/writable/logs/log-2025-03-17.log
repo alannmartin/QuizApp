@@ -1,0 +1,1095 @@
+DEBUG - 2025-03-17 07:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:18:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:20:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:21:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:21:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:28 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(335): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:21:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:21:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:34 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(335): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:21:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:21:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:39 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH/Views/pages/quiz/edit_quiz.php on line 15.
+ 1 SYSTEMPATH/View/View.php(224): include('/Users/alanmartin/Sites/localhost/QuizApp/Ci4/app/Views/pages/quiz/edit_quiz.php')
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/quiz/edit_quiz', [], true)
+ 4 APPPATH/Controllers/Quiz.php(363): view('pages/quiz/edit_quiz', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->edit('7')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:21:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:21:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:21:43 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(383): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->update('7')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:21:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:24:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:24:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:24:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:32 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(335): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:24:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:24:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:38 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(335): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:24:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:50 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(335): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:24:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:24:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:24:57 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(335): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:25:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:25:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:25:02 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 152.
+ 1 APPPATH/Controllers/Quiz.php(473): App\Models\QuizModel->get_teachers_names()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teacher()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:25:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:25:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 07:25:06 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 127.
+ 1 APPPATH/Controllers/Quiz.php(69): App\Models\QuizModel->get_teachers_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teachers_quiz()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 07:25:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH/Views/pages/quiz/take_quiz.php on line 11.
+ 1 SYSTEMPATH/View/View.php(224): include('/Users/alanmartin/Sites/localhost/QuizApp/Ci4/app/Views/pages/quiz/take_quiz.php')
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/quiz/take_quiz', [], true)
+ 4 APPPATH/Controllers/Quiz.php(70): view('pages/quiz/take_quiz', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teachers_quiz()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 07:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 07:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 07:25:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 07:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:29:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:29:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:29:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:29:27 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 152.
+ 1 APPPATH/Controllers/Quiz.php(498): App\Models\QuizModel->get_teachers_names()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teacher()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:29:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:29:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:29:36 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 127.
+ 1 APPPATH/Controllers/Quiz.php(69): App\Models\QuizModel->get_teachers_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teachers_quiz()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:29:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH/Views/pages/quiz/take_quiz.php on line 11.
+ 1 SYSTEMPATH/View/View.php(224): include('/Users/alanmartin/Sites/localhost/QuizApp/Ci4/app/Views/pages/quiz/take_quiz.php')
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/quiz/take_quiz', [], true)
+ 4 APPPATH/Controllers/Quiz.php(70): view('pages/quiz/take_quiz', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teachers_quiz()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:30:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:31:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:31:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:31:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:31:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:31:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:31:34 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:31:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:31:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:31:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:31:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:31:37 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 61.
+ 1 APPPATH/Controllers/Quiz.php(293): App\Models\QuizModel->getNumRows()
+ 2 APPPATH/Controllers/Quiz.php(334): App\Controllers\Quiz->submit_create_form()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:15 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:33:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:33:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:33:18 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 61.
+ 1 APPPATH/Controllers/Quiz.php(293): App\Models\QuizModel->getNumRows()
+ 2 APPPATH/Controllers/Quiz.php(334): App\Controllers\Quiz->submit_create_form()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:08 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:34:12 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 61.
+ 1 APPPATH/Controllers/Quiz.php(293): App\Models\QuizModel->getNumRows()
+ 2 APPPATH/Controllers/Quiz.php(334): App\Controllers\Quiz->submit_create_form()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:15 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:35:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:35:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:35:21 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 61.
+ 1 APPPATH/Controllers/Quiz.php(293): App\Models\QuizModel->getNumRows()
+ 2 APPPATH/Controllers/Quiz.php(334): App\Controllers\Quiz->submit_create_form()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:07 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:37:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:37:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:37:13 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 61.
+ 1 APPPATH/Controllers/Quiz.php(293): App\Models\QuizModel->getNumRows()
+ 2 APPPATH/Controllers/Quiz.php(334): App\Controllers\Quiz->submit_create_form()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:20 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:38:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:38:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:38:27 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 152.
+ 1 APPPATH/Controllers/Quiz.php(498): App\Models\QuizModel->get_teachers_names()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teacher()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:38:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:38:32 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 127.
+ 1 APPPATH/Controllers/Quiz.php(69): App\Models\QuizModel->get_teachers_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teachers_quiz()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:32 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH/Views/pages/quiz/take_quiz.php on line 11.
+ 1 SYSTEMPATH/View/View.php(224): include('/Users/alanmartin/Sites/localhost/QuizApp/Ci4/app/Views/pages/quiz/take_quiz.php')
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/quiz/take_quiz', [], true)
+ 4 APPPATH/Controllers/Quiz.php(70): view('pages/quiz/take_quiz', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->find_teachers_quiz()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:38:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:38:57 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$request is deprecated in APPPATH/Models/QuizModel.php on line 83.
+ 1 APPPATH/Controllers/Quiz.php(201): App\Models\QuizModel->getQuestions()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->resultDisplay()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:38:57 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH/Views/pages/quiz/result_display.php on line 79.
+ 1 SYSTEMPATH/View/View.php(224): include('/Users/alanmartin/Sites/localhost/QuizApp/Ci4/app/Views/pages/quiz/result_display.php')
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/quiz/result_display', [], true)
+ 4 APPPATH/Controllers/Quiz.php(202): view('pages/quiz/result_display', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->resultDisplay()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:39:00 --> [DEPRECATED] Creation of dynamic property CodeIgniter\View\View::$session is deprecated in APPPATH/Views/pages/result/submit_results.php on line 11.
+ 1 SYSTEMPATH/View/View.php(224): include('/Users/alanmartin/Sites/localhost/QuizApp/Ci4/app/Views/pages/result/submit_results.php')
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/result/submit_results', [], true)
+ 4 APPPATH/Controllers/Quiz.php(435): view('pages/result/submit_results')
+ 5 APPPATH/Controllers/Quiz.php(458): App\Controllers\Quiz->submit_results_form()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->submit_results()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:39:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:24 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$db is deprecated in APPPATH/Controllers/Quiz.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2025-03-17 09:39:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user is deprecated in APPPATH/Controllers/Quiz.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Quiz::$user_id is deprecated in APPPATH/Controllers/Quiz.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Quiz->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-17 09:39:30 --> [DEPRECATED] Creation of dynamic property App\Models\QuizModel::$user is deprecated in APPPATH/Models/QuizModel.php on line 109.
+ 1 APPPATH/Controllers/Quiz.php(360): App\Models\QuizModel->get_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quiz->display()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quiz))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-17 09:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-17 09:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-17 09:39:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-03-17 09:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

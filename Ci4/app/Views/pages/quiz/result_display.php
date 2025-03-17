@@ -12,14 +12,15 @@
 
     <?php $score = 0; ?>
 
-    <?php $array1 = array(); ?>
-    <?php $array2 = array(); ?>
-    <?php $array3 = array(); ?>
-    <?php $array4 = array(); ?>
-    <?php $array5 = array(); ?>
-    <?php $array6 = array(); ?>
-    <?php $array7 = array(); ?>
-    <?php $array8 = array(); ?>
+    <!-- Must use 8 arrays e.g. one for the posted $ans and the others for the rows in the quiz_questions table -->
+    <?php $array1 = array(); //for the posted $ans ?>
+    <?php $array2 = array(); //for the row answer ?>
+    <?php $array3 = array(); //for the row quizID ?>
+    <?php $array4 = array(); //for the row question ?>
+    <?php $array5 = array(); //for the row choice1 ?>
+    <?php $array6 = array(); //for the row choice2 ?>
+    <?php $array7 = array(); //for the row choice3 ?>
+    <?php $array8 = array(); //for the row choice4 ?>
 
 
     <?php  if(isset($posted))
@@ -60,29 +61,27 @@
         {?>
             <p class="w3-container w3-left"><?=$array3[$x]?> . <?=$array4[$x]?></p><?php
         }?>
-
-  <?php
-
-  if(isset($array2[$x]) AND isset($array1[$x]))
-  {?>
+     <!--------------------------------------------------------------------------------------------------->
       <?php
-      //$row['answer'](database answer) != $row['ans'](posted ans)
-      if ($array2[$x] != $array1[$x])
-      { ?>
-        <!--<p><span class="w3-align-left w3-padding w3-text-red"><?php //echo $array1[$x]?></span></p>-->
-        <!--<p><span class="w3-left w3-text-green"><?php //echo $array2[$x]?></span></p>-->
-          <img src="<?= base_url('assets/images/wrong.png');?>" alt="Wrong Answer">  <?php
-      }
-      else
-      { ?>
-         <!--<p><span class="w3-left w3-text-green"><?php //echo $array1[$x]?></span></p>-->
-         <img src="<?= base_url('assets/images/tick.png');?>" alt="Correct Answer">
-         <?php $score = $score + 1;
-         $this->session = \Config\Services::session();
-         $this->session->set('score', $score);
-      }
-  } ?>
+      //check if these values are set: e.g $row['answer'](database answer) != $row['ans'](posted ans)
+      if(isset($array2[$x]) AND isset($array1[$x]))
+      {?>
+          <?php
+          //$row['answer'](database answer) != $row['ans'](posted ans)
+          if ($array2[$x] != $array1[$x])
+          { ?>
+              <img src="<?= base_url('assets/images/wrong.png');?>" alt="Wrong Answer">  <?php
+          }
+          else
+          { ?>
+             <img src="<?= base_url('assets/images/tick.png');?>" alt="Correct Answer">
+             <?php $score = $score + 1;
+             $this->session = \Config\Services::session();
+             $this->session->set('score', $score);
+          }
+      } ?>
 
+   <!------------------------------------------------------------------------------------------------------>
   <?php
   }?>
 
